@@ -1,0 +1,36 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+
+<web-app xmlns="java.sun.com/xml/ns/javaee"
+         xmlns:xsi="w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="java.sun.com/xml/ns/javaee java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+
+  <display-name>hw-05-part-1</display-name>
+
+  <servlet>
+    <servlet-name>login-servlet</servlet-name>
+    <servlet-class>hw05.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>register-servlet</servlet-name>
+    <servlet-class>hw05.RegisterServlet</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>login-servlet</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>register-servlet</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  
+  <listener>
+    <listener-class>hw05.manager.ManagerContextListener</listener-class>
+  </listener>
+
+</web-app>

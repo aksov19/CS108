@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [29/Jun/2021:18:37:48 +0400] "GET / HTTP/1.1" 200 1088 http-bio-8080-exec-1 651
+0:0:0:0:0:0:0:1 - - [29/Jun/2021:18:37:48 +0400] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-3 1
+0:0:0:0:0:0:0:1 - - [29/Jun/2021:18:37:50 +0400] "GET /product-page.jsp?id=TLCh HTTP/1.1" 200 476 http-bio-8080-exec-4 95
+0:0:0:0:0:0:0:1 - - [29/Jun/2021:18:37:50 +0400] "GET /store-images/ChineseTShirt.jpg HTTP/1.1" 200 43622 http-bio-8080-exec-5 14
+0:0:0:0:0:0:0:1 - - [29/Jun/2021:18:37:51 +0400] "POST /Shopping-Cart HTTP/1.1" 200 551 http-bio-8080-exec-6 50
+0:0:0:0:0:0:0:1 - - [29/Jun/2021:18:37:56 +0400] "POST /Shopping-Cart HTTP/1.1" 500 1650 http-bio-8080-exec-7 40
